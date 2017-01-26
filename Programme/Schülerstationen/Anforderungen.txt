@@ -1,0 +1,16 @@
+Musskriterien:
+ - Benutzeroberfläche für jede einzelne Station
+ - Übersichtsoberfläche
+ - Speicherung von Experimentdaten in Db
+ - Unterstützen von Experimenten und deren Auswertung
+   - anzeigen von Werten die bei Experiment entstehen
+   - Vergleich von Theoretischen Werten und praktischen Ergebnissen - Fragen wieso es abweichungen gibt
+ - Bezug auf größere Maßstäbe
+ - Vortrag, Videos und Informationen während Experimentieren zugänglich machen
+ - Liste von Dingen die für Experiment benötigt werden
+
+Kannkriterien:
+ - Spiel/Quiz zu bereits gelerntem
+ - Freischaltmechanismus, um weitere Bereiche freizuschalten
+ - Master-Architektur mit einem Master, der die Experimente und den Fortschritt überwacht
+ - Hilfe Button um den Betreuer zu informieren
