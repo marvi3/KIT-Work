@@ -1,0 +1,28 @@
+Jedes Jahr wird ein neuer Ordner aufgemacht. Dieser hat lediglich den Namen des Jahrs also z.B. 2016.
+Wird ein Projekt über mehreren Jahren gebaut/konstruiert so wird es in dem Jahr gespeichert in dem es angefangen wurde.
+
+In dem Jahresordner wird ein Ordner für das jeweilige Projekt angelegt. Dieser Name soll aussagekräftig sein.
+Besteht er aus mehreren Wörtern so werden die Wörter zusammen geschrieben und der Wort-Anfangsbuchstabe ist groß z.B. KranHelfer.
+Im Projektordner soll dann die Hauptbaugruppe liegen bei der alles zusammen gebaut ist sobald das Projekt fertig ist.
+Diese heist [Projektname]_hbg_v[Versionsnummer]
+
+In den Projektordner muss ein Ordner mit dem Namen Alt. In diesen kommen ohne Sortierung die Alten Versionen.
+Außerdem muss ein Ordner mit dem Namen Projektplan rein. Dieser beinhaltet einen Projektplan wo die genauere Planung geregelt wird.
+Optional kann auch noch ein Ordner mit Berechnungen und einer mit gerenderten Dateien sein - diese heißen Berechnung und Rendering.
+Die darin gespeicherten Daten müssen passend in der richtigen identischen (zu den eigentlichen Bauteilen) Vezeichnissstruktur gespeichert werden.
+Man baut also die Verzeichnisstruktur nochmal auf. Dann gibt man den gerenderten bzw. berechneten Dateien genau den gleichen Namen wie der Orginaldatei.
+Sollte man mehr als nur ein Teil zusammen rendern, so wird dieses Teil in dem Baugruppen-Ordner von Rendering gespeichert
+und hat den Baugruppen-Namen plus "_v1".
+Wenn man dann nochmal in der Baugruppe mehrere Teile gemeinsam rendered, so wird der BaugruppenName mit _v2, _v3 etc. markiert.
+Diese Versionsnummern haben NICHTS mit den Versionsnummern der eigemtlichen Teile gemeinsam und werden so auch nur bei Rendering von Gruppen benutzt.
+
+Als nächstes kommt im Projektordner ein Ordner für jede sinnvolle Projektgruppe. Dies kann zum Beispiel Looping im Projekt Supraleiterbahn sein.
+In jeder Projektgruppe kann man wiederum Baugruppen haben. In Looping kann zum Beispiel Halterung eine Unterbaugruppe sein. Beliebig weit schachtelbar.
+Ist eine Baugruppe (samt Unterbaugruppen - diese gehören ja zur Baugruppen dazu) fertig so sollte man jeweils noch die Baugruppen-Zusammenbaugruppe zusammenfügen.
+Diese heist einfach BaugruppenName_bg_v[Versionsnummer]. In einem fertigen Projekt gibt es also eine hbg - in jeder Baugruppe wieder eine bg der Baugruppe.
+In jeder Unterbaugruppe gibt es wieder eine bg der Unterbaugruppe.
+
+Die Dateien in den Ordnern sind wiederum mit einem Ausagekräftigen Namen benannt. Z.B. in der Unterbaugruppe Halterung ist ein Teil
+mit dem Namen Bodenplatte. In dem gleichen Ordner wie dem Bauteil liegt auch die Ableitung sowie die pdf der Ableitung.
+Diese müssen (abgesehen von der Endung) exakt den gleichen Name haben.
+
